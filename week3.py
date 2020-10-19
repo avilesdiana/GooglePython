@@ -140,3 +140,67 @@ multiplication_table(8)
 """
 
 #For Loops
+"""
+sum_squares function, so that it returns the sum of all the squares of 
+numbers between 0 and x (not included). Remember that you can use the range(x) 
+function to generate a sequence of numbers from 0 to x (not included).
+
+def square(n):
+    return n*n
+
+def sum_squares(x):
+    sum = 0
+    for n in range(x):
+        sum += square(n)
+    return sum
+
+print(sum_squares(10)) # Should be 285
+"""
+"""
+values = [23,52,59,37,48]
+sum = 0
+length = 0
+
+for value in values:
+    sum += value
+    length+=1
+
+print("Total sum: " + str(sum)+ " - Average: " + str(sum/length))
+"""
+
+"""
+In math, the factorial of a number is defined as the product of an integer 
+and all the integers below it. For example, the factorial of four (4!) 
+is equal to 1*2*3*4=24. Fill in the blanks to make the factorial function 
+return the right number.
+
+
+def factorial(n):
+    result = 1
+    for i in range(1,n):
+        result += result * i
+    return result
+
+print(factorial(4)) # should return 24
+print(factorial(5)) # should return 120
+
+"""
+
+#Convert to celsius
+"""
+To quickly recap the range() function when passing one, two, or three parameters:
+
+    One parameter will create a sequence, one-by-one, from zero to one less than the parameter.
+    Two parameters will create a sequence, one-by-one, from the first parameter to one less than the second parameter.
+    Three parameters will create a sequence starting with the first parameter and stopping before the second parameter, 
+         but this time increasing each step by the third parameter.
+"""
+"""
+def to_celsius(x):
+    return (x-32)*5/9
+
+for x in range(0,101,10):
+    print(x,to_celsius(x))
+"""
+
+#Nested for loops
