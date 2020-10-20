@@ -1,4 +1,4 @@
-Loops Cheat Sheet
+Loops Cheat Sheet.
 
 Check out below for a run down of the syntax for while loops and for loops.
 While Loops
