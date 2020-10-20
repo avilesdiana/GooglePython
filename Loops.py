@@ -1,3 +1,6 @@
+#WEEK 3
+#Exercise by Diana Aviles
+
 print("\n Introduction to loops\n")
 
 #Anatomy of a While Loop
