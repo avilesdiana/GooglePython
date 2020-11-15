@@ -44,3 +44,8 @@ print(initials("Universal Serial Bus")) # Should be: USB
 print(initials("local area network")) # Should be: LAN
 
 """
+#Examples with format
+name = "Diana"
+number = len(name) * 3
+
+print("Hello {}, your number is {}".format(name, number))
