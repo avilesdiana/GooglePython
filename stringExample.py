@@ -5,6 +5,7 @@
 #True if the first letter of the string is the same as the last letter 
 # of the string, False if they’re different. 
 
+"""
 def first_and_last(message):
     if not message or message[0] == message[-1]:
         return True
@@ -15,3 +16,14 @@ def first_and_last(message):
 print(first_and_last("else"))
 print(first_and_last("tree"))
 print(first_and_last(""))
+"""
+
+def replace_domain(email, old_domain, new_domain):
+    if "@" + old_domain in email:
+        index = email.index("@" + old_domain)
+        new_email = email [:index] + "@" + new_domain
+        return new_email
+    return email
+
+print(replace_domain("laura150429@hotmail.com", "hotmail.com", "outlook.com"))
+
