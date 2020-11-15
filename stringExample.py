@@ -30,9 +30,9 @@ print(replace_domain("laura150429@hotmail.com", "hotmail.com", "outlook.com"))
 """
 
 #Fill in the gaps in the initials function so that it returns the initials of the words 
-# contained in the phrase received, in upper case. 
+# containeefed in the phrase received, in upper case. 
 # For example: "Universal Serial Bus" should return "USB"; "local area network" should return "LAN”. 
-
+"""
 def initials(phrase):
     words = phrase.split()
     result = ""
@@ -42,3 +42,5 @@ def initials(phrase):
 
 print(initials("Universal Serial Bus")) # Should be: USB
 print(initials("local area network")) # Should be: LAN
+
+"""

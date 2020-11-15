@@ -2,8 +2,12 @@
 
 -A method is a function associated with a specific class
 
-- strip() remove white space, spaces, etc 
+- strip() remove surrounding whitespace from a string.
    .lstrip() = " sdf"
    .rstrip() = "sdf "
 
 -.join() add a certain separator
+
+-If you wanted to check if a string ends with a given substring, 
+  you can use the method endswith. This will return True if the substring 
+    is found at the end of the string, and False if not.
