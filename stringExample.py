@@ -45,7 +45,16 @@ print(initials("local area network")) # Should be: LAN
 
 """
 #Examples with format
+"""
 name = "Diana"
 number = len(name) * 3
 
 print("Hello {}, your number is {}".format(name, number))
+"""
+#Formatting expression
+
+price = 7.5
+with_tax = price * 1.09
+print(price, with_tax)
+print("Base price: ${:.2f}. With Tax: ${:.2f}".format(price,with_tax))
+
