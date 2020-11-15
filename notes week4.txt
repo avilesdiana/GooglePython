@@ -1,3 +1,9 @@
 -Slice is the portion of a string that can contain more than one character, also sometimes called a substring. 
 
 -A method is a function associated with a specific class
+
+- strip() remove white space, spaces, etc 
+   .lstrip() = " sdf"
+   .rstrip() = "sdf "
+
+-.join() add a certain separator
