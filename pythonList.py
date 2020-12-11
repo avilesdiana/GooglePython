@@ -31,7 +31,7 @@ print(get_word("Now we are cooking!", 1)) # Should print: Now
 print(get_word("Now we are cooking!", 5)) # Nothing
 
 """
-
+"""
 fruits = ["Pineapple", "Banana", "Apple", "Melon"]
 fruits.append("kiwi")
 print(fruits)
@@ -47,3 +47,12 @@ print(fruits)
 
 fruits[2] = "pear"
 print(fruits)
+
+"""
+
+"""
+The skip_elements function returns a list containing every other element 
+from an input list, starting with the first element. Complete this function to do that, 
+using the for loop to iterate through the input list.
+"""
+
