@@ -44,3 +44,6 @@ print(fruits)
 
 fruits.pop(3)
 print(fruits)
+
+fruits[2] = "pear"
+print(fruits)
