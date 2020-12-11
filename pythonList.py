@@ -38,3 +38,7 @@ print(fruits)
 
 fruits.insert(0,"Orange")
 print(fruits)
+
+fruits.remove("Melon")
+print(fruits)
+
