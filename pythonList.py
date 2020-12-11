@@ -42,3 +42,5 @@ print(fruits)
 fruits.remove("Melon")
 print(fruits)
 
+fruits.pop(3)
+print(fruits)
