@@ -32,3 +32,7 @@ print(get_word("Now we are cooking!", 5)) # Nothing
 
 """
 
+fruits = ["Pineapple", "Banana", "Apple", "Melon"]
+fruits.append("kiwi")
+
+print(fruits)
