@@ -15,7 +15,7 @@ the {n}th word from a passed sentence. For example, get_word("This is a lesson a
 indexes start at 0, not 1. 
 
 """
-
+"""
 def get_word(sentence, n):
 	# Only proceed if n is positive 
 	if n > 0:
@@ -29,3 +29,6 @@ print(get_word("This is a lesson about lists", 4)) # Should print: lesson
 print(get_word("This is a lesson about lists", -4)) # Nothing
 print(get_word("Now we are cooking!", 1)) # Should print: Now
 print(get_word("Now we are cooking!", 5)) # Nothing
+
+"""
+
