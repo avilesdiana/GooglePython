@@ -56,3 +56,46 @@ from an input list, starting with the first element. Complete this function to d
 using the for loop to iterate through the input list.
 """
 
+
+"""
+Let's use tuples to store information about a file: its name, its type and its size in bytes. 
+Fill in the gaps in this code to return the size in kilobytes (a kilobyte is 1024 bytes) up to 2 decimal places. 
+"""
+
+"""
+def file_size(file_info):
+	name, type, size= file_info
+	return("{:.2f}".format(size / 1024))
+
+print(file_size(('Class Assignment', 'docx', 17875))) # Should print 17.46
+print(file_size(('Notes', 'txt', 496))) # Should print 0.48
+print(file_size(('Program', 'py', 1239))) # Should print 1.21
+
+"""
+"""
+The skip_elements function returns a list containing every other element from an input list, 
+starting with the first element. Complete this function to do that, using the for loop to
+ iterate through the input list.
+"""
+"""
+def skip_elements(elements):
+	# Initialize variables
+	new_list = []
+	i = 0
+
+	# Iterate through the list
+	for i in range(len(elements)):
+		# Does this element belong in the resulting list?
+		if i%2==0:
+			# Add this element to the resulting list
+			new_list.append(elements[i])
+		# Increment i
+		
+
+	return new_list
+
+print(skip_elements(["a", "b", "c", "d", "e", "f", "g"])) # Should be ['a', 'c', 'e', 'g']
+print(skip_elements(['Orange', 'Pineapple', 'Strawberry', 'Kiwi', 'Peach'])) # Should be ['Orange', 'Strawberry', 'Peach']
+print(skip_elements([])) # Should be []
+"""
+
