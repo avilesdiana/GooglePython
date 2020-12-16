@@ -54,3 +54,76 @@ print:
 {'Introduction': 1, 'Chapter 1': 4, 'Chapter 2': 11, 'Chapter 3': 24, 'Chapter 4': 30, 'Epilogue': 39}
 False
 """
+
+"""
+#Itering over the Contents of a dictionary
+
+file_counts = {"jpg": 10, "txt":14, "csv":2, "py":23}
+
+for extension in file_counts:
+    print(extension)
+
+#Other form
+
+for ext, amount in file_counts.items():
+    print("There are {} files with the .{} extension".format(amount,ext))
+
+#Other form for print
+print(file_counts.keys())
+print(file_counts.values())
+
+for value in file_counts.values():
+    print(value)
+
+"""
+
+#Example
+"""
+Remember that the items method returns a tuple of key, value for each element in the dictionary. 
+"""
+"""
+cool_beasts = {"octopuses":"tentacles", "dolphins":"fins", "rhinos":"horns"}
+for key,value in cool_beasts.items():
+    print("{} have {}".format(key,value))
+"""
+
+
+""""
+#Other form
+def count_letters(text):
+    result = {}
+
+    for letter in text:
+        if letter not in result:
+            result[letter] = 0
+        result[letter] += 1
+    return result
+
+print(count_letters("aaaaaa"))
+print(count_letters("diana Aviles"))
+print(count_letters("a long string with a lot of letter"))
+"""
+
+#DICTIONARIES VS. LISTS
+
+"""
+To workaround this, our single value can be a list containing multiple values. 
+Here we have a dictionary called "wardrobe" with items of clothing and their colors. 
+Fill in the blanks to print a line for each item of clothing with each color, 
+for example: "red shirt", "blue shirt", and so on.
+"""
+"""
+wardrobe = {"shirt":["red","blue","white"], "jeans":["blue","black"]}
+for item, color in wardrobe.items():
+	for colorsub in color:
+		print("{} {}".format(colorsub,item))
+"""
+
+
+"""
+red shirt
+blue shirt
+white shirt
+blue jeans
+black jeans
+"""
