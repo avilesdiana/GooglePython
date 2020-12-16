@@ -48,7 +48,7 @@ print(groups_per_user({"local": ["admin", "userA"],
 The add_prices function returns the total price of all of the groceries in the dictionary. 
 Fill in the blanks to complete this function
 """
-
+"""
 def add_prices(basket):
 	# Initialize the variable that will be used for the calculation
 	total = 0
@@ -66,3 +66,4 @@ groceries = {"bananas": 1.56, "apples": 2.50, "oranges": 0.99, "bread": 4.59,
 
 print(add_prices(groceries)) # Should print 28.44
 
+"""
