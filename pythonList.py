@@ -161,3 +161,11 @@ print(multiples)
 multiples = [ x*7 for x in range(1,11)]
 print(multiples)
 """
+#Other Form
+"""
+languages = ["Python", "Perl", "Ruby", "Go", "Java", "C"]
+lengths = [len(language) for language in languages]
+
+print(lengths)
+
+"""
