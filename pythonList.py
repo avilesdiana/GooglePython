@@ -138,7 +138,7 @@ print(skip_elements(['Orange', 'Pineapple', 'Strawberry', 'Kiwi', 'Peach'])) # S
 """
 
 #Other example
-
+"""
 def full_emails(people):
 	result = []
 	for email, name in people:
@@ -147,3 +147,17 @@ def full_emails(people):
 
 
 print(full_emails([("diana@example.com", "Diana Aviles"),("Bernardo@example.com", "Bernardo MG")]))
+"""
+"""
+multiples = []
+for x in range(1,11):
+	multiples.append(x*7)
+
+print(multiples)
+"""
+
+#Other version
+"""
+multiples = [ x*7 for x in range(1,11)]
+print(multiples)
+"""
