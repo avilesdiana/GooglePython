@@ -99,3 +99,40 @@ print(skip_elements(['Orange', 'Pineapple', 'Strawberry', 'Kiwi', 'Peach'])) # S
 print(skip_elements([])) # Should be []
 """
 
+#Example iterating over list and Tuples
+
+#List
+"""
+animals = ["Lion", "Zebra", "Dolphin", "Monkey"]
+chars = 0
+
+for animal in animals:
+	chars += len(animal)
+
+print("Total Characters: {}, Average lenght: {}".format(chars, chars/len(animals)))
+"""
+#Enumerate
+"""
+winners = ["Ashley", "Dylan", "Reese"]
+for index, person in enumerate(winners):
+	 print("{} - {}".format(index + 1, person))
+"""
+
+#Enumerate example
+"""
+Complete the skip_elements function to return every other element from the list, 
+this time using the enumerate function to check if an element is on an even position or an odd position.
+"""
+
+"""
+def skip_elements(elements):
+	# code goes here
+	new_list= []
+	for index,word in enumerate(elements):
+		if index%2 ==0:
+			new_list.append(word)
+	return new_list
+
+print(skip_elements(["a", "b", "c", "d", "e", "f", "g"])) # Should be ['a', 'c', 'e', 'g']
+print(skip_elements(['Orange', 'Pineapple', 'Strawberry', 'Kiwi', 'Peach'])) # Should be ['Orange', 'Strawberry', 'Peach']
+"""
