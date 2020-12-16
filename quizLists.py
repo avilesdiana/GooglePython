@@ -113,3 +113,7 @@ Pat is 35 years old and works as Lawyer
 Amanda is 25 years old and works as Engineer
 """
 
+"""
+Not quite. Remember to unpack the tuple into separate
+variables, the use those variables to format the output.
+"""
