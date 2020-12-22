@@ -67,3 +67,13 @@ class Apple:
 diana = Apple("red", "Sweet")
 print(diana)
 """
+"""
+class Person:
+  def __init__(self, name):
+    self.name = name
+  def greeting(self):
+    # {""1}Outputs a message with the name of the person{""1}
+    print("Hello! My name is {name}.".format(name=self.name)) 
+
+print(help(Person))
+"""
